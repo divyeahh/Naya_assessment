@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "Inter",sans-serif;
+}
+
+/* Navigation */
+
+.nav-container{
+    background: #C7A2E3B2;
+    height: 60px;
+    width: 1440px;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+nav .logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 136px;
+    top: 30px;
+    margin-right: 24px;
+
+
+}
+
+
+nav ul{
+    display: flex;
+}
+
+nav .logo{
+    flex: 1;
+}
+
+nav .logo a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    left: 212px;
+}
+
+nav .Brand_name{
+    width: 141px;
+    height: 70px;
+    left: 212px;
+    top: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+/* Header container */
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 227px;
+    height: 236px;
+    left: 606px;
+    top: 200px;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+h1 {
+    background: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    width: 100px;
+    background-color: #838383;
+}
+
+#toolbar * {
+    margin-bottom: 10px;
+}
+
+#toolbar label {
+    font-size: 12px;
+}
+
+#toolbar input {
+    width: 100%;
+}
+
+#toolbar button {
+    background-color: #C7A2E3B2;
+    border: none;
+    border-radius: 2px;
+    color:white;
+    padding: 2px;
+}
